@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#root {
+    --background: rgb(169, 218, 195);
+    --main: rgb(175, 197, 134);
+    --content: rgb(197, 97, 144);
+    --header: rgb(229, 185, 253);
+    --boxes: rgba(208, 228, 97, 0.979);
+    --gameover: rgb(240, 177, 84);
+}

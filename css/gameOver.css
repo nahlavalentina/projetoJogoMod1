@@ -1,0 +1,64 @@
+body {
+    background-color: var(--background);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+h1 {
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 50px;
+    padding: 30px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: var(--main);
+    margin: 20px;
+}
+
+nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+a {
+    color: var(--content);
+}
+
+.gameOver {
+    font-family: 'Palette Mosaic', cursive;
+    color: var(--gameover);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-top: 60px;
+    font-size: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.return {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    border-radius: 20px;
+    border: 1px solid #000;
+    font-size: 40px;
+    width: 30%;
+    height: 70px;
+    background-color: var(--boxes);
+    transition: 0.4s;
+}
+
+.return:hover {
+    background-color: var(--header);
+    width: 32%;
+    height: 80px;
+}
