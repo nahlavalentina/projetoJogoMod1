@@ -51,10 +51,10 @@ main {
     height: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 25px;
-    border-radius: 10px;
+    color: var(--content);
 }
 
 
