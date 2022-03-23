@@ -21,3 +21,7 @@ a {
     --boxes: rgba(208, 228, 97, 0.979);
     --gameover: rgb(240, 177, 84);
 }
+
+ul {
+    list-style: none;
+}

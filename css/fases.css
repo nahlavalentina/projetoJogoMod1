@@ -32,3 +32,49 @@ nav {
 a {
     color: var(--content);
 }
+
+.gameText {
+    display: flex;
+    background-color: var(--main);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 25px;
+    margin-top: 90px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    width: 60%;
+    height: 40%;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+    color: var(--content);
+    font-size: 15px;
+}
+
+.button {
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 25px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background: var(--boxes);
+}
+
+footer {
+    background-color: var(--header);
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 25px;
+}
