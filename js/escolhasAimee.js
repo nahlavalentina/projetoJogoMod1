@@ -9,7 +9,7 @@ function faseUm() {
 
         if (resposta == 'b' || resposta == 'B') {
             alert ('Resposta certa!')
-            window.location.href="../html/joelFaseDois.html";
+            window.location.href="../html/aimeeFaseDois.html";
             break
         } else if  (resposta != 'b' || resposta !='B') {
             if (qtdDeTentativas > 0) {
@@ -33,11 +33,11 @@ function faseDois() {
 
         var resposta = prompt ('Escreva sua resposta: (a, b ou c)')
 
-        if (resposta == 'c' || resposta == 'C') {
+        if (resposta == 'a' || resposta == 'A') {
             alert ('Resposta certa!')
-            window.location.href="../html/joelFaseTres.html";
+            window.location.href="../html/aimeeFaseTres.html";
             break
-        } else if  (resposta != 'c' || resposta !='C') {
+        } else if  (resposta != 'a' || resposta !='A') {
             if (qtdDeTentativas > 0) {
                 alert (`Resposta errada! Você ainda tem ${qtdDeTentativas} chance(s).`);
             qtdDeTentativas --
@@ -59,11 +59,11 @@ function faseTres() {
 
         var resposta = prompt ('Escreva sua resposta: (a, b ou c)')
 
-        if (resposta == 'a' || resposta == 'A') {
+        if (resposta == 'c' || resposta == 'C') {
             alert ('Resposta certa!')
-            window.location.href="../html/joelWin.html";
+            window.location.href="../html/aimeeWin.html";
             break
-        } else if  (resposta != 'a' || resposta !='A') {
+        } else if  (resposta != 'c' || resposta !='C') {
             if (qtdDeTentativas > 0) {
                 alert (`Resposta errada! Você ainda tem ${qtdDeTentativas} chance(s).`);
             qtdDeTentativas --

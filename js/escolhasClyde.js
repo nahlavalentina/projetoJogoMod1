@@ -7,11 +7,11 @@ function faseUm() {
 
         var resposta = prompt ('Escreva sua resposta: (a, b ou c)')
 
-        if (resposta == 'b' || resposta == 'B') {
+        if (resposta == 'a' || resposta == 'A') {
             alert ('Resposta certa!')
-            window.location.href="../html/joelFaseDois.html";
+            window.location.href="../html/clydeFaseDois.html";
             break
-        } else if  (resposta != 'b' || resposta !='B') {
+        } else if  (resposta != 'a' || resposta !='A') {
             if (qtdDeTentativas > 0) {
                 alert (`Resposta errada! Você ainda tem ${qtdDeTentativas} chance(s).`);
             qtdDeTentativas --
@@ -35,7 +35,7 @@ function faseDois() {
 
         if (resposta == 'c' || resposta == 'C') {
             alert ('Resposta certa!')
-            window.location.href="../html/joelFaseTres.html";
+            window.location.href="../html/clydeFaseTres.html";
             break
         } else if  (resposta != 'c' || resposta !='C') {
             if (qtdDeTentativas > 0) {
@@ -61,7 +61,7 @@ function faseTres() {
 
         if (resposta == 'a' || resposta == 'A') {
             alert ('Resposta certa!')
-            window.location.href="../html/joelWin.html";
+            window.location.href="../html/clydeWin.html";
             break
         } else if  (resposta != 'a' || resposta !='A') {
             if (qtdDeTentativas > 0) {
