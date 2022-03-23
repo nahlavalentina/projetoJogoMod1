@@ -87,7 +87,7 @@ main {
 }
 
 footer {
-    background-color: var(--header);
+    background-color: var(--footer);
     text-align: center;
     padding: 5px 0;
     margin-top: 25px;
